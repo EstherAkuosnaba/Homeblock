@@ -1,8 +1,5 @@
-Home.jsx
  import React, {useEffect, useState} from 'react';
  import axios from 'axios';
- 
- import '../styles/post.css';
  
  // string => "jakjdskf", int => 35
  
@@ -36,7 +33,7 @@ Home.jsx
      }, [])
  
      return (
-         <div>
+         <div className="container">
              <h1>Hey my homepage</h1>
  
              {
